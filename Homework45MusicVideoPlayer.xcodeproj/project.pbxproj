@@ -9,21 +9,47 @@
 /* Begin PBXBuildFile section */
 		D62BA8482774614E003C03FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62BA8472774614E003C03FE /* AppDelegate.swift */; };
 		D62BA84A2774614E003C03FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62BA8492774614E003C03FE /* SceneDelegate.swift */; };
-		D62BA84C2774614E003C03FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62BA84B2774614E003C03FE /* ViewController.swift */; };
 		D62BA84F2774614E003C03FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D62BA84D2774614E003C03FE /* Main.storyboard */; };
 		D62BA85127746153003C03FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D62BA85027746153003C03FE /* Assets.xcassets */; };
 		D62BA85427746153003C03FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D62BA85227746153003C03FE /* LaunchScreen.storyboard */; };
+		D62BA8652774666E003C03FE /* 一路向北.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D62BA85B27746669003C03FE /* 一路向北.mp4 */; };
+		D62BA8662774666E003C03FE /* 止戰之殤.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D62BA85C2774666A003C03FE /* 止戰之殤.mp4 */; };
+		D62BA8672774666E003C03FE /* 髮如雪.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D62BA85D2774666A003C03FE /* 髮如雪.mp4 */; };
+		D62BA8682774666E003C03FE /* 楓.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D62BA85E2774666B003C03FE /* 楓.mp4 */; };
+		D62BA8692774666E003C03FE /* 最長的電影.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D62BA85F2774666B003C03FE /* 最長的電影.mp4 */; };
+		D62BA86A2774666E003C03FE /* 白色風車.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D62BA8602774666C003C03FE /* 白色風車.mp4 */; };
+		D62BA86B2774666E003C03FE /* 蒲公英的約定.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D62BA8612774666D003C03FE /* 蒲公英的約定.mp4 */; };
+		D62BA86C2774666E003C03FE /* 夜曲.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D62BA8622774666D003C03FE /* 夜曲.mp4 */; };
+		D62BA86D2774666E003C03FE /* 夜的第七章.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D62BA8632774666E003C03FE /* 夜的第七章.mp4 */; };
+		D62BA86E2774666E003C03FE /* 七里香.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D62BA8642774666E003C03FE /* 七里香.mp4 */; };
+		D62BA8702774673A003C03FE /* VideoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62BA86F2774673A003C03FE /* VideoInfo.swift */; };
+		D62BA872277467D7003C03FE /* MusicVideoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62BA871277467D7003C03FE /* MusicVideoTableViewController.swift */; };
+		D62BA874277467F4003C03FE /* VideoInfoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62BA873277467F4003C03FE /* VideoInfoData.swift */; };
+		D62BA87627746BB2003C03FE /* VideoInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62BA87527746BB2003C03FE /* VideoInfoTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D62BA8442774614E003C03FE /* Homework45MusicVideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework45MusicVideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D62BA8472774614E003C03FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D62BA8492774614E003C03FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D62BA84B2774614E003C03FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D62BA84E2774614E003C03FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D62BA85027746153003C03FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D62BA85327746153003C03FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D62BA85527746153003C03FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D62BA85B27746669003C03FE /* 一路向北.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "一路向北.mp4"; sourceTree = "<group>"; };
+		D62BA85C2774666A003C03FE /* 止戰之殤.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "止戰之殤.mp4"; sourceTree = "<group>"; };
+		D62BA85D2774666A003C03FE /* 髮如雪.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "髮如雪.mp4"; sourceTree = "<group>"; };
+		D62BA85E2774666B003C03FE /* 楓.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "楓.mp4"; sourceTree = "<group>"; };
+		D62BA85F2774666B003C03FE /* 最長的電影.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "最長的電影.mp4"; sourceTree = "<group>"; };
+		D62BA8602774666C003C03FE /* 白色風車.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "白色風車.mp4"; sourceTree = "<group>"; };
+		D62BA8612774666D003C03FE /* 蒲公英的約定.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "蒲公英的約定.mp4"; sourceTree = "<group>"; };
+		D62BA8622774666D003C03FE /* 夜曲.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "夜曲.mp4"; sourceTree = "<group>"; };
+		D62BA8632774666E003C03FE /* 夜的第七章.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "夜的第七章.mp4"; sourceTree = "<group>"; };
+		D62BA8642774666E003C03FE /* 七里香.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "七里香.mp4"; sourceTree = "<group>"; };
+		D62BA86F2774673A003C03FE /* VideoInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoInfo.swift; sourceTree = "<group>"; };
+		D62BA871277467D7003C03FE /* MusicVideoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicVideoTableViewController.swift; sourceTree = "<group>"; };
+		D62BA873277467F4003C03FE /* VideoInfoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoInfoData.swift; sourceTree = "<group>"; };
+		D62BA87527746BB2003C03FE /* VideoInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoInfoTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +84,24 @@
 			children = (
 				D62BA8472774614E003C03FE /* AppDelegate.swift */,
 				D62BA8492774614E003C03FE /* SceneDelegate.swift */,
-				D62BA84B2774614E003C03FE /* ViewController.swift */,
 				D62BA84D2774614E003C03FE /* Main.storyboard */,
+				D62BA86F2774673A003C03FE /* VideoInfo.swift */,
+				D62BA873277467F4003C03FE /* VideoInfoData.swift */,
+				D62BA871277467D7003C03FE /* MusicVideoTableViewController.swift */,
+				D62BA87527746BB2003C03FE /* VideoInfoTableViewCell.swift */,
 				D62BA85027746153003C03FE /* Assets.xcassets */,
 				D62BA85227746153003C03FE /* LaunchScreen.storyboard */,
 				D62BA85527746153003C03FE /* Info.plist */,
+				D62BA85B27746669003C03FE /* 一路向北.mp4 */,
+				D62BA8642774666E003C03FE /* 七里香.mp4 */,
+				D62BA85F2774666B003C03FE /* 最長的電影.mp4 */,
+				D62BA8622774666D003C03FE /* 夜曲.mp4 */,
+				D62BA8632774666E003C03FE /* 夜的第七章.mp4 */,
+				D62BA85E2774666B003C03FE /* 楓.mp4 */,
+				D62BA85C2774666A003C03FE /* 止戰之殤.mp4 */,
+				D62BA8602774666C003C03FE /* 白色風車.mp4 */,
+				D62BA8612774666D003C03FE /* 蒲公英的約定.mp4 */,
+				D62BA85D2774666A003C03FE /* 髮如雪.mp4 */,
 			);
 			path = Homework45MusicVideoPlayer;
 			sourceTree = "<group>";
@@ -125,9 +164,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D62BA8672774666E003C03FE /* 髮如雪.mp4 in Resources */,
+				D62BA8662774666E003C03FE /* 止戰之殤.mp4 in Resources */,
+				D62BA86B2774666E003C03FE /* 蒲公英的約定.mp4 in Resources */,
+				D62BA86D2774666E003C03FE /* 夜的第七章.mp4 in Resources */,
+				D62BA8682774666E003C03FE /* 楓.mp4 in Resources */,
+				D62BA86E2774666E003C03FE /* 七里香.mp4 in Resources */,
 				D62BA85427746153003C03FE /* LaunchScreen.storyboard in Resources */,
+				D62BA86C2774666E003C03FE /* 夜曲.mp4 in Resources */,
 				D62BA85127746153003C03FE /* Assets.xcassets in Resources */,
+				D62BA8652774666E003C03FE /* 一路向北.mp4 in Resources */,
 				D62BA84F2774614E003C03FE /* Main.storyboard in Resources */,
+				D62BA86A2774666E003C03FE /* 白色風車.mp4 in Resources */,
+				D62BA8692774666E003C03FE /* 最長的電影.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +187,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D62BA84C2774614E003C03FE /* ViewController.swift in Sources */,
+				D62BA874277467F4003C03FE /* VideoInfoData.swift in Sources */,
+				D62BA87627746BB2003C03FE /* VideoInfoTableViewCell.swift in Sources */,
+				D62BA8702774673A003C03FE /* VideoInfo.swift in Sources */,
+				D62BA872277467D7003C03FE /* MusicVideoTableViewController.swift in Sources */,
 				D62BA8482774614E003C03FE /* AppDelegate.swift in Sources */,
 				D62BA84A2774614E003C03FE /* SceneDelegate.swift in Sources */,
 			);
