@@ -26,8 +26,6 @@ class MusicVideoTableViewController: UITableViewController {
 
         
     }
-
-    
     //傳遞資料
     @IBSegueAction func passVideoData(_ coder: NSCoder) -> AVPlayerViewController? {
         let controller = AVPlayerViewController(coder: coder)
